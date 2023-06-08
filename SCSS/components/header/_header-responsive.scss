@@ -1,0 +1,26 @@
+@media screen and (max-width: 900px) 
+{
+   .nav 
+   {
+      background: $primary-color;
+   }
+  
+   .menu 
+   {
+      display: none;
+   }
+  
+   .menu-mobile 
+   {
+      display: flex;
+   }
+}
+  
+
+@media screen and (max-width: 550px) 
+{
+   .logo 
+   {
+      padding-left: 0;
+   }
+}

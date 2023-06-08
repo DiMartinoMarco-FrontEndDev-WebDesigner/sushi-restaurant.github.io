@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/sushi-9.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="CSS/style.css" type="text/css">
+
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+
+    <!-- JS -->
+    <script src="JS/script.js" type="module" defer></script>
+</head>
+<body>
+    <!------------------------------------------------- header -------------------------------------------------->
+    <header>
+        <nav class="nav">
+            <div class="logo">
+                <h4 data-aos="fade-down">Sushiman</h4>
+                <div class="logo-overlay"></div>
+            </div>
+
+            <ul class="menu" data-aos="fade-down">
+                <li><a href="#menu">Menù</a></li>
+                <li><a href="#food">Cibo</a></li>
+                <li><a href="#services">Servizi</a></li>
+                <li><a href="#about-us">Chi siamo</a></li>
+                <li><img src="img/search.svg" alt="cerca"></li>
+            </ul>
+
+
+            <ul class="menu-mobile" data-aos="fade-down">
+               <li><img src="img/menu.svg" alt="menu"></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!------------------------------------------------- hero -------------------------------------------------->
+
+    <section class="hero">
+        <div class="hero-image">
+            <img src="img/sushi-1.png" alt="sushi" data-aos="fade-up">
+            <h2 data-aos="fade-up">
+              日 <br>
+              本 <br>
+              食 
+            </h2>
+
+            <div class="overlay"></div>
+        </div><!-- fine div.hero-image -->
+
+        <div class="hero-content">
+            <div class="info" data-aos="fade-left">
+                <h1>Prova il gusto del cibo giapponese</h1>
+                <p>Prova ovunque e in qualsiasi momento il gusto del cibo giapponese più popolare.</p>
+
+                <div class="buttons">
+                   <button class="order-button">Ordina adesso</button>
+                   <button class="play-button"><img src="img/play-circle.svg" alt="Avvia"> come ordinare</button>
+                </div>
+            </div><!-- fine div.info -->
+
+            <div class="testimonial" data-aos="fade-up">
+                <div class="customer flex-center">
+                   <h4>2<span>4K+</span></h4>
+                   <p>Clienti soddisfatti</p>
+                </div>
+
+                <div class="review">
+                    <img src="img/user.png" alt="utenti">
+                    <p>"Questo è il miglior servizio di consegna per il cibo giapponese che sia mai esistito."</p>
+                </div>
+            </div><!-- fine div.testimonials -->
+        </div><!-- fine div.hero-content -->
+    </section>
+
+    <!------------------------------------------------- about us ------------------------------------------------->
+
+    <section class="about-us" id="about-us">
+        <div class="about-image">
+            <div class="about-image-sushi-3" data-aos="fade-right">
+                <img src="img/sushi-3.png" alt="sushi">
+            </div>
+
+            <button class="about-button">
+                Saperne di più <img src="img/arrow-up-right.svg" alt="per saperne di più">
+            </button>
+
+            <div class="about-image-sushi-2" data-aos="fade-right">
+                <img src="img/sushi-2.png" alt="sushi">
+            </div>
+        </div><!-- fine div.about-image -->
+
+
+        <div class="about-content" data-aos="fade-left">
+            <p class="sushi-subtitle">Chi siamo / 私たちに関しては</p>
+            <h3 class="sushi-title">La nostra missione è portare a voi i veri sapori della cucina giapponese.</h3>
+            <p class="sushi-description">
+               Continueremo a offrire l'esperienza dell'Omotenashi, 
+               la mentalità giapponese dell'ospitalità, con lo shopping e 
+               la ristorazione ai nostri clienti.
+            </p>
+        </div><!-- fine div.about-content -->
+    </section>
+
+    <!----------------------------------------------- popular-foods ---------------------------------------------->
+
+    <section class="popular-foods" id="menu">
+        <h2 class="title" data-aos="flip-up">Cibo Popolare / 人気</h2>
+
+        <div class="filters hide-scrollbar" data-aos="fade-up">
+            <button class="filters-btn active">Tutto</button>
+            <button class="filters-btn"><img src="img/sushi-9.png" alt="sushi">Sushi</button>
+            <button class="filters-btn"><img src="img/sushi-8.png" alt="sushi">Ramen</button>
+            <button class="filters-btn"><img src="img/sushi-7.png" alt="sushi">Uddon</button>
+            <button class="filters-btn"><img src="img/sushi-6.png" alt="sushi">Danggo</button>
+            <button class="filters-btn">Altro</button>
+        </div>
+
+        <div class="catalogue" data-aos="fade-up">
+            <article class="card">
+                <img class="card-image" src="img/sushi-12.png" alt="sushi">
+                <h4 class="card-title">Chezu Sushi</h4>
+
+                <div class="card-details flex-between">
+                    <div class="card-rating">
+                       <img src="img/star.svg" alt="stella">
+                       <p>4.9</p>
+                    </div>
+
+                    <p class="card-price">€10.50</p>
+                </div>
+            </article>
+
+            <article class="card active-card">
+                <img class="card-image" src="img/sushi-11.png" alt="sushi">
+                <h4 class="card-title">Original Sushi</h4>
+
+                <div class="card-details flex-between">
+                    <div class="card-rating">
+                       <img src="img/star.svg" alt="stella">
+                       <p>5.0</p>
+                    </div>
+
+                    <p class="card-price">€9.50</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <img class="card-image" src="img/sushi-10.png" alt="sushi">
+                <h4 class="card-title">Ramen Legendo</h4>
+
+                <div class="card-details flex-between">
+                    <div class="card-rating">
+                       <img src="img/star.svg" alt="stella">
+                       <p>4.7</p>
+                    </div>
+
+                    <p class="card-price">€6.50</p>
+                </div>
+            </article>
+        </div><!-- fine div.catalogue -->
+
+        <button class="popular-foods-button">Esplora cibo <img src="img/arrow-right.svg" alt="Esplora cibo"></button>
+    </section>
+
+    <!----------------------------------------------- trending --------------------------------------------------->
+
+    <section class="trending" id="food">
+        <div class="trending-sushi">
+            <div class="trending-content" data-aos="fade-right">
+                <p class="sushi-subtitle">Pietanze in Tendenza / トレンド</p>
+                <h3 class="sushi-title">Sushi Giapponese</h3>
+                <p class="sushi-description">Provate il gusto del sushi più delizioso.</p>
+
+                <ul class="trending-list flex-between">
+                    <li>
+                       <div class="trending-icon flex-center"><img src="img/check.svg" alt="check"></div>
+                       <p>Make Sushi</p>
+                    </li>
+
+                    <li>
+                       <div class="trending-icon flex-center"><img src="img/check.svg" alt="check"></div>
+                       <p>Oshizushi</p>
+                    </li>
+
+                    <li>
+                       <div class="trending-icon flex-center"><img src="img/check.svg" alt="check"></div>
+                       <p>Uramaki Sushi</p>
+                    </li>
+
+                    <li>
+                       <div class="trending-icon flex-center"><img src="img/check.svg" alt="check"></div>
+                       <p>Nigiri Sushi</p>
+                    </li>
+
+                    <li>
+                       <div class="trending-icon flex-center"><img src="img/check.svg" alt="check"></div>
+                       <p>Temaki Sushi</p>
+                    </li>
+
+                    <li>
+                       <div class="trending-icon flex-center"><img src="img/check.svg" alt="check"></div>
+                       <p>Inari Sushi</p>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="trending-image flex-center">
+                <img src="img/sushi-5.png" alt="sushi" data-aos="fade-left">
+        
+                <div class="arrow arrow-left">
+                   <img src="img/arrow-vertical.svg" alt="arrow vertical">
+                </div>
+        
+                <div class="arrow arrow-bottom">
+                   <img src="img/arrow-horizontal.svg" alt="arrow horizontal">
+                </div>
+            </div><!-- fine div.trending-image-->
+        </div><!-- fine div.trending-sushi-->
+  
+
+        <div class="discover" data-aos="zoom-in">
+           <p>Esplora</p>
+        </div><!-- fine div.trending-discover -->
+
+  
+        <div class="trending-drinks">
+            <div class="trending-image flex-center">
+                <img src="img/sushi-4.png" alt="sushi" data-aos="fade-right">
+
+                <div class="arrow arrow-top">
+                    <img src="img/arrow-horizontal.svg" alt="arrow horizontal">
+                </div>
+
+                <div class="arrow arrow-right">
+                    <img src="img/arrow-vertical.svg" alt="arrow vertical">
+                </div>
+            </div><!-- fine div.trending-image -->
+
+            <div class="trending-content" data-aos="fade-left">
+                <p class="sushi-subtitle">Drinks in tendenza / トレンド</p>
+                <h3 class="sushi-title">Drinks Giapponesi</h3>
+                <p class="sushi-description">Provate il gusto delle più deliziose bevande giapponesi.</p>
+
+                <ul class="trending-list flex-between">
+                    <li>
+                       <div class="trending-icon flex-center"><img src="img/check.svg" alt="check"></div>
+                       <p>Oruncha</p>
+                    </li>
+
+                    <li>
+                       <div class="trending-icon flex-center"><img src="img/check.svg" alt="check"></div>
+                       <p>Sakura Tea</p>
+                    </li>
+
+                    <li>
+                       <div class="trending-icon flex-center"><img src="img/check.svg" alt="check"></div>
+                       <p>Aojiru</p>
+                    </li>
+
+                    <li>
+                       <div class="trending-icon flex-center"><img src="img/check.svg" alt="check"></div>
+                       <p>Ofukucha</p>
+                    </li>
+
+                    <li>
+                       <div class="trending-icon flex-center"><img src="img/check.svg" alt="check"></div>
+                       <p>Kombu-cha</p>
+                    </li>
+
+                    <li>
+                       <div class="trending-icon flex-center"><img src="img/check.svg" alt="check"></div>
+                       <p>Mugicha</p>
+                    </li>
+                </ul>
+            </div><!-- fine div.trending-content -->
+        </div><!-- fine div.trending-drinks -->
+    </section>
+
+    <!----------------------------------------------- subscription ------------------------------------------------>
+
+    <section class="subscription flex-center" id="services">
+        <h2 data-aos="flip-down">Ricevi l'offerta direttamente <br> nella tua casella di posta</h2>
+        <p data-aos="fade-up">Iscriviti alla newsletter del Sushiman</p>
+
+        <div data-aos="fade-up" class="subscription-form">
+           <input type="text" placeholder="Inserisci il tuo indirizzo email">
+           <button>Iscriviti</button>
+        </div>
+    </section>
+
+    <!------------------------------------------------- footer ---------------------------------------------------->
+
+    <footer class="footer flex-between">
+        <h3 class="footer-logo"><span>Sushi</span>man</h3>
+
+        <ul class="footer-nav">
+           <li><a href="#menu">Menu</a></li>
+           <li><a href="#food">Cibo</a></li>
+           <li><a href="#services">Servizi</a></li>
+           <li><a href="#about-us">Chi siamo</a></li>
+        </ul>
+
+        <ul class="footer-social">
+           <li class="flex-center"><img src="img/facebook.svg" alt="link page facebook"></li>
+           <li class="flex-center"><img src="img/instagram.svg" alt="link page instagram"></li>
+           <li class="flex-center"><img src="img/twitter.svg" alt="link page twitter"></li>
+        </ul>
+    </footer>
+</body>
+</html>

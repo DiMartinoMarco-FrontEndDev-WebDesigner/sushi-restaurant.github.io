@@ -1,0 +1,32 @@
+@media screen and (max-width: 550px) 
+{
+   .popular-foods 
+   {
+      padding: 64px 32px;
+   }
+
+   .popular-foods .title
+   {
+      font-size: 33px;
+   }
+
+   .card,
+   .card.active-card 
+   {
+      min-width: 100%;
+   }
+
+   .popular-foods .filters
+   {
+      /*display: block;
+      margin: 0 auto;*/
+      flex-wrap: wrap;
+      gap: 24px;
+   }
+
+   .popular-foods .filters-btn
+   {
+      padding: 10px 20px;
+      border-radius: 40px;
+   }
+}

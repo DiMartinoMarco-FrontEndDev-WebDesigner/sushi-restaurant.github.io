@@ -1,0 +1,79 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+  
+body 
+{
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: $color-creamson;
+}
+  
+a 
+{
+    text-decoration: none;
+    color: inherit;
+}
+
+.flex-center 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.flex-between 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.sushi-subtitle 
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: $plus-jakarta-sans;
+    color: $primary-color;
+    opacity: 0.8;
+    letter-spacing: -0.01em;
+}
+  
+.sushi-title 
+{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: $playfair-display;
+    color: $secondary-color;
+    margin-top: 16px;
+}
+  
+.sushi-description 
+{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: $plus-jakarta-sans;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    color: $secondary-color;
+    opacity: 0.8;
+    margin: 32px 0px;
+}
+  
+  /* Nascondere la barra di scorrimento per Chrome, Safari e Opera */
+.hide-scrollbar::-webkit-scrollbar 
+{
+    display: none;
+}
+  
+  /* Nascondere la barra di scorrimento per IE, Edge e Firefox */
+.hide-scrollbar 
+{
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+  

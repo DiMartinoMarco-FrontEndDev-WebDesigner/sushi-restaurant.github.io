@@ -1,0 +1,86 @@
+@media screen and (max-width: 1024px) 
+{
+   .about-us 
+   {
+      flex-direction: column;
+   }
+
+   .about-image 
+   {
+      flex-direction: row;
+   }
+
+   .about-image-sushi-3 
+   {
+      border-bottom: none;
+      border-right: 8px solid $color-creamson;
+   }
+
+   .about-button 
+   {
+      display: none;
+   }
+}
+
+  
+@media screen and (max-width: 750px) 
+{
+   .about-image 
+   {
+      flex-direction: column;
+   }
+
+   .about-image-sushi-3 
+   {
+      border-bottom: 8px solid $color-creamson;
+      border-right: none;
+   }
+
+   .about-button 
+   {
+      display: block;
+      top: 47%;
+   }
+}
+  
+
+@media screen and (max-width: 550px) 
+{
+   .about-image-sushi-2 img,
+   .about-image-sushi-3 img 
+   {
+      width: 50%;
+      height: 160px;
+      object-fit: contain;
+   }
+
+   .about-image div 
+   {
+      padding: 32px;
+   }
+
+   .about-button 
+   {
+      top: 48%;
+      min-height: 50px;
+      font-size: 15px;
+      padding-left: 25px;
+      padding-right: 25px;
+   }
+
+   .about-content 
+   {
+      padding: 32px;
+   }
+
+   .about-content .sushi-title
+   {
+      font-size: 40px;
+   }
+
+   .about-content .sushi-description
+   {
+      font-size: 16px;
+      line-height: 30px;
+   }
+}

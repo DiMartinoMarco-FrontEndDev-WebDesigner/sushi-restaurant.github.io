@@ -1,0 +1,63 @@
+.footer
+{
+    width: 100%;
+    padding: 20px 40px;
+    background-color: $color-white;
+    flex-wrap: wrap;
+    gap: 20px;
+    overflow: hidden;
+}
+
+.footer-logo
+{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: $playfair-display;
+    text-transform: uppercase;
+    color: $secondary-color;
+    cursor: pointer;
+}
+
+.footer-logo span 
+{
+    color: $primary-color;
+}
+
+.footer ul 
+{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 64px;
+
+    :last-child
+    {
+        gap: 32px;
+    }
+}
+
+.footer-nav li 
+{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: $plus-jakarta-sans;
+    text-transform: uppercase;
+    color: $secondary-color;
+    cursor: pointer;
+}
+
+.footer-social li 
+{
+    width: 42px;
+    height: 42px;
+    background-color: $secondary-color;
+    border-radius: 100%;
+}
+
+.footer-social li img 
+{
+    width: 45%;
+    height: 45%;
+    object-fit: contain;
+}
